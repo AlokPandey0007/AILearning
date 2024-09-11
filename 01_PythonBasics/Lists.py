@@ -78,3 +78,9 @@ print([x**2 for x in range(1,5)])
 #conditional
 newList=[x**2 for x in range(1,10) if x%2==0]
 print(newList)
+
+
+#nested list
+
+nested_list=[[1,2,3],['a','b','c']]
+print(nested_list[1][1])     #output=b
